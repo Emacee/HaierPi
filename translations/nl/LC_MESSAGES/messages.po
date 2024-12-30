@@ -1,0 +1,911 @@
+# Dutch translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-12-30 22:15+0100\n"
+"PO-Revision-Date: 2025-01-05 20:51+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"Language-Team: pl <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: templates/base.html:32
+msgid ". Do you want install?"
+msgstr "Dostępna jest aktualizacja, czy chcesz ją zainstalować?"
+
+#: templates/base.html:34
+msgid "Install"
+msgstr "Installeren"
+
+#: templates/base.html:40
+msgid "Installing update, please wait..."
+msgstr "Update aan het installeren, even geduld..."
+
+#: templates/base.html:83
+msgid "Restart HaierPi service"
+msgstr "Restart HaierPi service"
+
+#: templates/base.html:85
+msgid "Yes"
+msgstr "Ja"
+
+#: templates/base.html:91
+msgid "Restarting service, please wait..."
+msgstr "Service opnieuw starten, even geduld..."
+
+#: templates/base.html:130
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: templates/base.html:131 templates/index.html:394 templates/index.html:429
+#: templates/settings.html:167
+msgid "Settings"
+msgstr "Instellingen"
+
+#: templates/base.html:132
+msgid "Parameters"
+msgstr "Parameters"
+
+#: templates/base.html:133
+msgid "Scheduler"
+msgstr "Schema"
+
+#: templates/base.html:134
+msgid "Charts"
+msgstr "Grafieken"
+
+#: templates/base.html:146
+msgid "Change password"
+msgstr "Wijzig wachtwoord"
+
+#: templates/base.html:147
+msgid "Check for update"
+msgstr "Controleer voor update"
+
+#: templates/base.html:148
+msgid "Download Backup"
+msgstr "Download backup"
+
+#: templates/base.html:149
+msgid "Restore from Backup"
+msgstr "Herstel backup"
+
+#: templates/base.html:152
+msgid "Restart"
+msgstr "Herstart"
+
+#: templates/base.html:158
+msgid "Log out"
+msgstr "Log uit"
+
+#: templates/base.html:180
+msgid "Toggle theme"
+msgstr "Wissel thema"
+
+#: templates/base.html:186
+msgid "Light"
+msgstr "Licht"
+
+#: templates/base.html:193
+msgid "Dark"
+msgstr "Donker"
+
+#: templates/charts.html:14
+msgid "Temperature charts"
+msgstr "Temperatuurgrafieken"
+
+#: templates/charts.html:27
+msgid "Presures charts"
+msgstr "Drukgrafieken"
+
+#: templates/index.html:7
+msgid "Enter new password"
+msgstr "Voer nieuw wachtwoord in"
+
+#: templates/index.html:9
+msgid "New Password"
+msgstr "Nieuw wachtwoord"
+
+#: templates/index.html:9
+msgid "New password"
+msgstr "Nieuw wachtwoord"
+
+#: templates/index.html:10
+msgid "Confirm Password"
+msgstr "Bevestig wachtwoord"
+
+#: templates/index.html:10
+msgid "Confirm password"
+msgstr "Bevestig wachtwoord"
+
+#: templates/index.html:41
+msgid "Password not match"
+msgstr "Wachtwoord komt niet overeen"
+
+#: templates/index.html:279
+msgid "Change temperature"
+msgstr "Wijzig temperaruur"
+
+#: templates/index.html:331
+msgid "Heating - setpoint: "
+msgstr "Verwarming - setpoint: "
+
+#: templates/index.html:332
+msgid "Inside temp: "
+msgstr "Binnentemperatuur: "
+
+#: templates/index.html:333
+msgid "Outside temp: "
+msgstr "Buitentemperatuur: "
+
+#: templates/index.html:334
+msgid "Heating-curve: "
+msgstr "Stooklijn"
+
+#: templates/index.html:336 templates/index.html:348 templates/index.html:360
+msgid "Change"
+msgstr "Wijzig"
+
+#: templates/index.html:345
+msgid "DHW - setpoint: "
+msgstr "SWW - setpoint: "
+
+#: templates/index.html:346
+msgid "Tank temp: "
+msgstr "Temp. vat: "
+
+#: templates/index.html:356
+msgid "Cooling"
+msgstr "Koelen"
+
+#: templates/index.html:357
+msgid "Inside humidity: "
+msgstr "Luchtvochtigheid binnen: "
+
+#: templates/index.html:374
+msgid "Frequency limit: - "
+msgstr "Beperking frequentie: - "
+
+#: templates/index.html:389
+msgid "Frequency limit temp: "
+msgstr "Beperking temperatuur: "
+
+#: templates/index.html:390
+msgid "Relay status: "
+msgstr "Relais status: "
+
+#: templates/index.html:403
+msgid "Preset change - "
+msgstr "Preset wijziging - "
+
+#: templates/login.html:7
+msgid "Please log in"
+msgstr "Log in alstublieft"
+
+#: templates/login.html:10
+msgid "Name"
+msgstr "Naam"
+
+#: templates/login.html:14 templates/settings.html:792
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: templates/login.html:17
+msgid "Log in"
+msgstr "Log in"
+
+#: templates/restore.html:13
+msgid "Restore config from backup"
+msgstr "Herstel confoguratie van backup"
+
+#: templates/scheduler.html:12
+msgid "Central Heating scheduler"
+msgstr "Verwarming schema"
+
+#: templates/scheduler.html:15 templates/scheduler.html:27
+#: templates/settings.html:377 templates/settings.html:594
+#: templates/settings.html:698 templates/settings.html:803
+#: templates/settings.html:905
+msgid "Save"
+msgstr "Opslaan"
+
+#: templates/scheduler.html:24
+msgid "Domestic Hot Water scheduler"
+msgstr "Tapwater schema"
+
+#: templates/settings.html:142
+msgid "Changes saved"
+msgstr "Wijzigingen opgeslagen"
+
+#: templates/settings.html:172
+msgid "General"
+msgstr "Algemeen"
+
+#: templates/settings.html:175
+msgid "Heating/Cooling"
+msgstr "Verwarmen/Koelen"
+
+#: templates/settings.html:178
+msgid "Home Assistant"
+msgstr "Home Assistant"
+
+#: templates/settings.html:181
+msgid "MQTT"
+msgstr "MQTT"
+
+#: templates/settings.html:184
+msgid "System"
+msgstr "System"
+
+#: templates/settings.html:187
+msgid "Tuya"
+msgstr "Tuya"
+
+#: templates/settings.html:190
+msgid "Logs"
+msgstr "Logi"
+
+#: templates/settings.html:204
+msgid "Inside temperture sensor"
+msgstr "Binnentemperatuursensor"
+
+#: templates/settings.html:205
+msgid ""
+"What temperature sensor you using (ha - for home assistant entity, "
+"builtin - for physically connect DHT22 sensor"
+msgstr ""
+"Welke temperatuursensor gebruiken voor (HA - voor Home Assistant entity, "
+"Ingebouwd - voor fysiek aangesloten DHT22 sensor"
+
+#: templates/settings.html:210 templates/settings.html:227
+#: templates/settings.html:294
+msgid "HA"
+msgstr "HA"
+
+#: templates/settings.html:211 templates/settings.html:228
+#: templates/settings.html:295
+msgid "Builtin"
+msgstr "Ingebouwd"
+
+#: templates/settings.html:221
+msgid "Outside temperature sensor"
+msgstr "Buitentemperatuursensor"
+
+#: templates/settings.html:222
+msgid ""
+"What temperature sensor you using (ha - for home assistant entity, "
+"builtin - for physically connect DS18b20 sensor, Tao - for built-in pump "
+"ambient sensor, Open Meteo - for online weather service ( you need to "
+"provide the coordinates of your town )"
+msgstr ""
+"WWelke temperatuursensor gebruiken voor (HA - voor Home Assistant entity,"
+"Ingebouwd - voor fysiek aangesloten DS18b20 sensor, Ingebouwd - voor ingebouwde pomp "
+"Buitensensor, Open Meteo - voor online weerdienst ( coördinaten van locatie benodigd )"
+
+#: templates/settings.html:229
+msgid "Tao"
+msgstr "Pomp"
+
+#: templates/settings.html:230
+msgid "Open Meteo"
+msgstr "Open Meteo"
+
+#: templates/settings.html:242 templates/settings.html:258
+msgid "Coordinates"
+msgstr "Coördinaten"
+
+#: templates/settings.html:243
+msgid "Latitude"
+msgstr "Breedtegraad"
+
+#: templates/settings.html:259
+msgid "Longitude"
+msgstr "Lengtegraad"
+
+#: templates/settings.html:274
+msgid "Find coordinates by name"
+msgstr "Vind coördinaten op naam"
+
+#: templates/settings.html:275
+msgid "Name the town"
+msgstr "Plaatsnaam"
+
+#: templates/settings.html:288
+msgid "Inside humidity sensor"
+msgstr "Luchtvochtigheidssensor binnen"
+
+#: templates/settings.html:289
+msgid ""
+"What humidity sensor you using (ha - for home assistant entity, builtin -"
+" for physically connect DHT22 sensor"
+msgstr ""
+"WWelke temperatuursensor gebruiken voor (HA - voor Home Assistant entity,"
+" voor fysiek aangesloten DHT22 sensor"
+
+#: templates/settings.html:305
+msgid "AntiON-OFF"
+msgstr "Anti AAN-UIT"
+
+#: templates/settings.html:306
+msgid "A system that try to prevent the heatpump from operating in on-off mode"
+msgstr ""
+"Een systeem dat probeert te voorkomen dat de warmtepomp pendelt / in AAN-UIT modus opereert"
+
+#: templates/settings.html:320
+msgid "AntiON-OFF Delta"
+msgstr "Delta Anti AAN-UIT"
+
+#: templates/settings.html:321
+msgid "Temperature delta when function is activate"
+msgstr "Temperatuurdelta wanneer actief"
+
+#: templates/settings.html:334
+msgid "Domestic Hot Water without limit"
+msgstr "Tapwatertemperatuur zonder beperking"
+
+#: templates/settings.html:335
+msgid "When heating DHW turn off frequency limit relay"
+msgstr "Tijdens verwarmen SWW schakel beperking frequentie relais uit"
+
+#: templates/settings.html:349
+msgid "Use Central Heating scheduler"
+msgstr "Gebruik CV schema"
+
+#: templates/settings.html:350
+msgid "Do you want to use CH scheduler? Default: No"
+msgstr "Wilt u de het schema voor CV gebruiken?: Nee"
+
+#: templates/settings.html:364
+msgid "Use Domestic Hot Water scheduler"
+msgstr "Gebruik SWW schema"
+
+#: templates/settings.html:365
+msgid "Do you want to use DHW scheduler? Default: NO"
+msgstr "Wilt u de het schema voor SWW gebruiken?: Nee"
+
+#: templates/settings.html:385
+msgid "Frequency limit"
+msgstr "Beperking frequentie"
+
+#: templates/settings.html:386 templates/settings.html:418
+msgid "automatic of manual frequency limit relay control"
+msgstr ""
+"automatische of handmatige bediening frequentiebeperkingrelais "
+
+#: templates/settings.html:391 templates/settings.html:423
+#: templates/settings.html:469
+msgid "Auto"
+msgstr "Auto"
+
+#: templates/settings.html:392 templates/settings.html:424
+#: templates/settings.html:471
+msgid "Manual"
+msgstr "Handmatig"
+
+#: templates/settings.html:403
+msgid "Frequency limit temperature"
+msgstr "Frequentielimiet temperatuur"
+
+#: templates/settings.html:404 templates/settings.html:436
+#: templates/settings.html:450
+msgid ""
+"In auto mode - temperature above which the frequency limitation will be "
+"activated"
+msgstr ""
+"In auto mode - de temperatuur waarboven de frequentiebeperking zal worden "
+"geactiveerd"
+
+#: templates/settings.html:417
+msgid "Preset change"
+msgstr "Preset wijziging"
+
+#: templates/settings.html:435
+msgid "Preset quiet temperature"
+msgstr "Preset stilte temperatuur"
+
+#: templates/settings.html:449
+msgid "Preset turbo temperature"
+msgstr "Preset turbo temperatuur"
+
+#: templates/settings.html:463
+msgid "Heating curve type"
+msgstr "Stooklijntype"
+
+#: templates/settings.html:464
+msgid "What type of curve you want to use"
+msgstr "Welke type stooklijn toepassen?"
+
+#: templates/settings.html:470
+msgid "Static"
+msgstr "Statisch"
+
+#: templates/settings.html:472
+msgid "Directly"
+msgstr "Direct"
+
+#: templates/settings.html:482
+msgid "Heating curve calculation frequency (requires a service restart)"
+msgstr "Stooklijn berekenen (vereist een herstart van de service)"
+
+#: templates/settings.html:483
+msgid "Frequency in minutes how often heating curve should be recalculate"
+msgstr "Frequentie in minuten hoe vaak de stooklijn moet worden herberekend"
+
+#: templates/settings.html:501
+msgid "Heating curve slope"
+msgstr "Stooklijn hoek"
+
+#: templates/settings.html:502
+msgid "heating curve slope for Auto and Static modes"
+msgstr "Stooklijn hoek voor Auto en Statische modes"
+
+#: templates/settings.html:515 templates/settings.html:516
+msgid "Heating curve parallel shift"
+msgstr "Stooklijn parallele verschuiving"
+
+#: templates/settings.html:529 templates/settings.html:530
+msgid "Heating curve amplification"
+msgstr "Stooklijn helling versterking"
+
+#: templates/settings.html:543
+msgid "Water temperatures for manual heating curve"
+msgstr "Watertemperatuur voor handmatige stooklijn"
+
+#: templates/settings.html:544
+msgid "Water temperature for specific outside temp."
+msgstr "Watertemperatuur voor specifieke buitentemperatuur"
+
+#: templates/settings.html:579
+msgid "Heating curve chart"
+msgstr "Stooklijngrafiek"
+
+#: templates/settings.html:580
+msgid "Show charts with all cheating curve"
+msgstr "Toon grafiek met alle stooklijnen"
+
+#: templates/settings.html:583
+msgid "Show"
+msgstr "Toon"
+
+#: templates/settings.html:586
+msgid "Inside temp: 21"
+msgstr "Binnentemperatuur: 21"
+
+#: templates/settings.html:602
+msgid "Home Assistant address"
+msgstr "Adres Home Assistant"
+
+#: templates/settings.html:603
+msgid "Home assistant IP or domainname address"
+msgstr "Home Assistant IP of domeinnaam"
+
+#: templates/settings.html:616
+msgid "Home Assistant port"
+msgstr "Home Assistant poort"
+
+#: templates/settings.html:617
+msgid "Home Assistant port (default 8123)"
+msgstr "Home Assistant poort (standaard 8123)"
+
+#: templates/settings.html:630
+msgid "Home Assistant Access Key"
+msgstr "Home Assistant beveiligingssleutel"
+
+#: templates/settings.html:631
+msgid ""
+"Home Assistant Access Token Key. You can generate key in user settings in"
+" HA"
+msgstr ""
+"Home Assistant API Token beveiligingssleutel. Je kunt dit genereren in de instellingen van"
+" HA"
+
+#: templates/settings.html:644
+msgid "Use MQTT discovery"
+msgstr "Gebruik 'MQTT discovery'"
+
+#: templates/settings.html:645
+msgid "Automatic device discovery in Home Assistant"
+msgstr "Automatische apparaatherkenning in Home Assistant"
+
+#: templates/settings.html:659
+msgid "Inside temperature entity"
+msgstr "Binnentemperatuur entiteit"
+
+#: templates/settings.html:660
+msgid "Entity name of inside temperature sensor (e.g. sensor.inside_temp)"
+msgstr "Nazwa encji z czujnikiem temperatury wewnętrznej (np. sensor.temp_wew)"
+
+#: templates/settings.html:673
+msgid "Outside temperature entity"
+msgstr "Encja temperatury zewnętrznej"
+
+#: templates/settings.html:674
+msgid "Entity name of outside temperature sensor (e.g. sensor.outside_temp)"
+msgstr "Nazwa encji z czujnikiem temperatury zewnętrznej (np. sensor.temp_zew)"
+
+#: templates/settings.html:687
+msgid "Inside humidity entity"
+msgstr "Encja czujnika wilgotności"
+
+#: templates/settings.html:688
+msgid "Entity name of inside humidity sensor (e.g. sensor.inside_humidity)"
+msgstr "Naam entiteit luchtvochtigheidssensor binnen (bijv. sensor.luchtvochtigheid_binnen)"
+
+#: templates/settings.html:706
+msgid "Using MQTT"
+msgstr "Gebruik MQTT"
+
+#: templates/settings.html:707
+msgid "Do you want to use mqtt"
+msgstr "Wil je MQTT gebruiken?"
+
+#: templates/settings.html:721
+msgid "MQTT Address"
+msgstr "MQTT adres"
+
+#: templates/settings.html:722
+msgid "MQTT Broker ip or hostname address"
+msgstr "MQTT IP of hostname"
+
+#: templates/settings.html:735
+msgid "MQTT port"
+msgstr "MQTT poort"
+
+#: templates/settings.html:736
+msgid "MQTT Broker port (default 1883)"
+msgstr "MQTT broker poort (standaard 1883)"
+
+#: templates/settings.html:749
+msgid "Use MQTT with TLS"
+msgstr "Gebruik MQTT met TLS"
+
+#: templates/settings.html:750
+msgid "Use secure connection for MQTT"
+msgstr "Gebruik versleutelde verbinding voor MQTT"
+
+#: templates/settings.html:764
+msgid "Main topic"
+msgstr "Hoofdtopic"
+
+#: templates/settings.html:765
+msgid "Main topic for publishing messages"
+msgstr "Hoofdtopic voor publiceren van berichten"
+
+#: templates/settings.html:778
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: templates/settings.html:779
+msgid "MQTT Broker account username"
+msgstr "MQTT Broker gebruikersnaam"
+
+#: templates/settings.html:793
+msgid "MQTT Broker account password"
+msgstr "MQTT Broker wachtwoord"
+
+#: templates/settings.html:811
+msgid "Bind address"
+msgstr "Bind adres"
+
+#: templates/settings.html:812
+msgid "On which address the script should run (default 0.0.0.0)"
+msgstr "Op welk adres moet het script draaien (standaard 0.0.0.0)"
+
+#: templates/settings.html:825
+msgid "Bind port"
+msgstr "Bind poort"
+
+#: templates/settings.html:826
+msgid "On which port the script should run (default 4000)"
+msgstr "Op welke poort moet het script draaien (standaard 4000)"
+
+#: templates/settings.html:838
+msgid "Serial port"
+msgstr "Seriële poort"
+
+#: templates/settings.html:839
+msgid "On which port you connect modbus converter"
+msgstr "Op welke poort is de modbus omvormer aangesloten"
+
+#: templates/settings.html:852
+msgid "Modbus GPIO"
+msgstr "Pin GPIO Modbus"
+
+#: templates/settings.html:853
+msgid "What GPIO pin use for modbus relay"
+msgstr "Op welke GPIO pin is het modbus relais aangesloten"
+
+#: templates/settings.html:866
+msgid "Frequency limit GPIO"
+msgstr "Frequentiebeperking GPIO pin"
+
+#: templates/settings.html:867
+msgid "What GPIO pin you use for frequency limit relay"
+msgstr ""
+"Op welk GPIO pin is het frequentiebeperkingrelais aangesloten"
+
+#: templates/settings.html:880
+msgid "Heat demand GPIO"
+msgstr "Warmtevraag GPIO pin"
+
+#: templates/settings.html:881
+msgid "What GPIO pin you use for heat demand relay"
+msgstr "Welke GPIO pin gebruik je voor warmtevraagrelais"
+
+#: templates/settings.html:894
+msgid "Cool demand GPIO"
+msgstr "Koudevraag GPIO pin"
+
+#: templates/settings.html:895
+msgid "What GPIO pin you use for cool demand relay"
+msgstr "Welke GPIO pin gebruik je voor koudevraagrelais"
+
+#: templates/settings.html:929
+msgid "Start logging"
+msgstr "Start loggen"
+
+#: templates/settings.html:929
+msgid "Save to file"
+msgstr "Opslaan als bestand"
+
+#~ msgid ""
+#~ "\r"
+#~ "Ctrl-C - Closing... please wait, this can take a while."
+#~ msgstr ""
+#~ "\r"
+#~ "Ctrl-C - Afsluiten... even geduld, dit kan even duren."
+
+#~ msgid "Closed serial connection."
+#~ msgstr "Seriële verbinding gesloten"
+
+#~ msgid "MQTT - Connected"
+#~ msgstr "MQTT - Verbonden"
+
+#~ msgid "Disconnected from MQTT with code: {0}"
+#~ msgstr "Verbinding met MQTT verbroken met code: {0}"
+
+#~ msgid "New power state from mqtt:"
+#~ msgstr "Nieuwe apparaatstatus van MQTT:"
+
+#~ msgid "New preset mode"
+#~ msgstr "Niewe presetmodus"
+
+#~ msgid "MQTT: cannot set new preset: "
+#~ msgstr "MQTT: kan nieuwe preset niet instellen: "
+
+#~ msgid "MQTT: cannot set flimit relay"
+#~ msgstr "MQTT: kan frequentieberperkingrelais niet instellen"
+
+#~ msgid "New mode"
+#~ msgstr "Nieuwe modus"
+
+#~ msgid "MQTT: cannot set mode"
+#~ msgstr "MQTT: kan modus niet instellen"
+
+#~ msgid "MQTT: mode unsupported"
+#~ msgstr "MQTT: modus niet ondersteund"
+
+#~ msgid "MQTT: New temp error: payload - "
+#~ msgstr "MQTT: Nieuwe temperatuur fout: payload - "
+
+#~ msgid "MQTT: cannot change DHW mode - payload:"
+#~ msgstr "MQTT: kan SWW modus niet wijzigen - payload: "
+
+#~ msgid "New temperature"
+#~ msgstr "Nieuwe temperatuur"
+
+#~ msgid "MQTT: cannot change DHW temperature - payload:"
+#~ msgstr "MQTT: kan SWW temperatuur niet wijzigen - payload: "
+
+#~ msgid "Central heating: "
+#~ msgstr "Centrale verwarming: "
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "ERROR"
+#~ msgstr "FOUT"
+
+#~ msgid "Frequency limit relay changed to: "
+#~ msgstr "Frequentiebeperkingrelais gewijzigd naar: "
+
+#~ msgid "Cannot change frequency limit relay"
+#~ msgstr "Kan frequentiebeperkingrelais niet wijzigen"
+
+#~ msgid "turn on heat demand"
+#~ msgstr "schakel warmtevraag in"
+
+#~ msgid "Set chtemp ERROR"
+#~ msgstr "Stel CV temperatuur in op FOUT"
+
+#~ msgid "turn off heat demand"
+#~ msgstr "Schakel warmtevraag uit"
+
+#~ msgid "dont change flimit in DHW mode"
+#~ msgstr "Wijzig frequentielimiet niet in SWW modus"
+
+#~ msgid "turn on freq limit"
+#~ msgstr "Schakel frequentiebeperking in"
+
+#~ msgid "turn off freq limit"
+#~ msgstr "Schakel frequentiebeperking uit"
+
+#~ msgid "Error: cannot read outside temperature"
+#~ msgstr "FOUT: kan buitentemperatuur niet lezen"
+
+#~ msgid "ischanged: status "
+#~ msgstr "ischanged: status "
+
+#~ msgid " has changed. Set new value - "
+#~ msgstr " is gewijzigd. Stel nieuwe waarde in - "
+
+#~ msgid "Delta: "
+#~ msgstr "Delta: "
+
+#~ msgid "AntiON-OFF: "
+#~ msgstr "Antie AAN-UIT: "
+
+#~ msgid ", more then: "
+#~ msgstr ", meer dan: "
+
+#~ msgid ". Changing mode to lower if possible"
+#~ msgstr ". Verlaag modus indien mogelijk"
+
+#~ msgid "AntiON-OFF: current mode - "
+#~ msgstr "Anti AAN-UIT: huidige modus - "
+
+#~ msgid "AntiON-OFF: changing mode to: ECO"
+#~ msgstr "Anti AAN-UIT: wijzig modus naar: ECO"
+
+#~ msgid "AntiON-OFF: changing mode to: quiet"
+#~ msgstr "Anti AAN-UIT: wijzig modus naar: stil"
+
+#~ msgid "AntiON-OFF: mode in lowest setting, turn on frequency limit relay"
+#~ msgstr "Anti AAN-UIT: modus in laagste instelling, schakel frequentiebeperkingrelais in"
+
+#~ msgid ""
+#~ "AntiON-OFF: mode in lowest setting, "
+#~ "frequency limit is already ON. I "
+#~ "can't do anything else :("
+#~ msgstr ""
+#~ "Anti AAN-UIT: modus in laagste instelling, "
+#~ "frequentiebeperkinglimiet al ingeschakeld. Iets anders is niet mogelijk :-( "
+
+#~ msgid ", no need to change mode"
+#~ msgstr ", geen noodzaak om modus te wijzigen"
+
+#~ msgid "Scheduler: START CH"
+#~ msgstr "Schema: START CV"
+
+#~ msgid "Scheduler: CH ALREADY ON"
+#~ msgstr "Schema: CV al ingeschakeld"
+
+#~ msgid "Scheduler: CH ALREADY OFF"
+#~ msgstr "Schema: CV al uitgeschakeld"
+
+#~ msgid "Scheduler: STOP CH"
+#~ msgstr "Schema: Stop CV"
+
+#~ msgid "Scheduler: START DHW"
+#~ msgstr "Schema: Start SWW
+
+#~ msgid "Scheduler: DHW ALREADY ON"
+#~ msgstr "Schema: SWW al ingeschakeld"
+
+#~ msgid "Scheduler: DHW ALREADY OFF"
+#~ msgstr "Schema: SWW al uitgeschakeld"
+
+#~ msgid "Scheduler: STOP DHW"
+#~ msgstr "Schema: Stop SWW"
+
+#~ msgid "Background function running!"
+#~ msgstr "Achtergrondservice gestart!"
+
+#~ msgid "MQTT connection error."
+#~ msgstr "MQTT: verbindingsfout."
+
+#~ msgid "Background thread DEAD"
+#~ msgstr "Achtergrondservice onderbroken"
+
+#~ msgid "Serial Thread DEAD"
+#~ msgstr "Seriële verbinding onderbroken"
+
+#~ msgid "MQTT thread DEAD"
+#~ msgstr "MQTT verbinding onderbroken"
+
+#~ msgid "Service running: http://127.0.0.1:4000 "
+#~ msgstr "Service gestart: http://127.0.0.1:4000 "
+
+#~ msgid "New preset mode: "
+#~ msgstr "Nieuwe preset mode: "
+
+#~ msgid "Preset mode not changed"
+#~ msgstr "Preset modus niet gewijzigd"
+
+#~ msgid "Frequency limit relay: "
+#~ msgstr "Frequentiebeperkingrelais: "
+
+#~ msgid "Frequency limit not changed"
+#~ msgstr "Frequentiebeperking niet gewijzigd"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "heating curve slope"
+#~ msgstr "Stooklijn helling"
+
+#~ msgid "ERROR: Cannot set new CH temp"
+#~ msgstr "FOUT: Kan nieuwe CV temperatuur niet instellen"
+
+#~ msgid "Domestic Hot Water "
+#~ msgstr "Stromend warm water (SWW)"
+
+#~ msgid "Error: Cannot set new DHW temp"
+#~ msgstr "FOUT: Kan nieuwe SWW temperatuur niet instellen"
+
+#~ msgid "ERROR: Cannot set new temp"
+#~ msgstr "FOUT: Kan nieuwe temperatuur niet instellen"
+
+#~ msgid " temperature changed!"
+#~ msgstr " temperatuur gewijzigd!"
+
+#~ msgid "Modbus communication error."
+#~ msgstr "Modbus communicatiefout"
+
+#~ msgid "Modbus connection timeout."
+#~ msgstr "Modbus verbinding time-out"
+
+#~ msgid "Central Heating temperature changed!"
+#~ msgstr "CV temperatuur gewijzigd!"
+
+#~ msgid "Domestic Hot Water: "
+#~ msgstr "SWW: "
+
+#~ msgid "State changed!"
+#~ msgstr "Status gewijzigd!"
+
+#~ msgid "Error"
+#~ msgstr "Fout"
+
+#~ msgid "Available, version: "
+#~ msgstr "Beschikbaar, versie"
+
+#~ msgid "Not Available"
+#~ msgstr "Niet beschikbaar"
+
+#~ msgid "Entity state not found"
+#~ msgstr "Status van entiteit niet gevonden"
+
+#~ msgid "Central Heating schedule saved"
+#~ msgstr "CV schema opgeslagen"
+
+#~ msgid "ERROR: Central Heating schedule not saved"
+#~ msgstr "FOUT: CV schema niet opgeslagen"
+
+#~ msgid "Domestic Hot Water schedule saved"
+#~ msgstr "SWW schema opgeslagen"
+
+#~ msgid "ERROR: Domestic Hot Water not saved"
+#~ msgstr "FOUT: SWW niet opgeslagen"
+
+#~ msgid "username and password are required."
+#~ msgstr "gebruikersnaam en wachtwoord zijn vereist."
+
+#~ msgid "Password changed"
+#~ msgstr "Wachtwoord gewijzigd"
